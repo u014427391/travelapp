@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+              android:id="@+id/mime_layout_02"
+              android:layout_width="fill_parent"
+              android:layout_height="100dip"
+              android:background="@color/white" >
+
+              <ImageView
+                  android:id="@+id/spot_iv"
+                  android:layout_width="70.0dip"
+                  android:layout_height="70.0dip"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="10dip"
+                  android:background="@drawable/ic_normal_pic"
+                  android:scaleType="fitXY" />
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical" >
+              </LinearLayout>
+
+              <ImageView
+                  android:id="@+id/row_img_02"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginRight="10dip"
+                  android:scaleType="matrix"
+                  android:src="@drawable/mm_submenu" />
+
+              <TextView
+                  android:id="@+id/spot_name_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignTop="@+id/spot_iv"
+                  android:layout_marginLeft="18dp"
+                  android:layout_toRightOf="@+id/spot_iv"
+                  android:text="湖南张家界"
+                  android:textColor="#202020"
+                  android:textSize="13sp" />
+
+              <TextView
+                  android:id="@+id/spot_intro_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignBottom="@+id/spot_iv"
+                  android:layout_alignLeft="@+id/spot_name_tv"
+                  android:layout_toLeftOf="@+id/row_img_02"
+                  android:text="三千奇峰拨地而起，八百溪流蜿蜒曲折，奇峰美景让人称叹，品湘味土家菜又是别样滋味。"
+                  android:textColor="#202020"
+                  android:textSize="12sp" />
+
+          </RelativeLayout>
+          
+       <View
+         android:layout_width="match_parent"
+         android:layout_height="0.2dp"
+         android:background="@color/bg_Gray" />
+
+</LinearLayout>

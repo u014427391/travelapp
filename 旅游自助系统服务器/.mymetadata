@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TourismSystemServer"
+  id="myeclipse.1457185819352"
+  context-root="/TourismSystemServer"
+  j2ee-spec="5.0"
+  archive="TourismSystemServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

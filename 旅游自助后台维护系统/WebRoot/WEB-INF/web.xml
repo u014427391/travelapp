@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ALoginCheckServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.ALoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CLoginCheckServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.CLoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllLineInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetAllLineInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllSpotInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetAllSpotInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetLineInfoByIdServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetLineInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSpotInfoByIdServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetSpotInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddLineInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.AddLineInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllDisposedOrderServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetAllDisposedOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllUnDisposedOrderServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetAllUnDisposedOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DisposedOrderServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.DisposedOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UnDisposedOrderServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.UnDisposedOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetProgressServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.GetProgressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadLineImgServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.UploadLineImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeLineImgServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.ChangeLineImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateLineInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.UpdateLineInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSpotInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.AddSpotInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadSpotImgServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.UploadSpotImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateSpotInfoServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.UpdateSpotInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeSpotImgServlet</servlet-name>
+    <servlet-class>com.tsw.servlet.ChangeSpotImgServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ALoginCheckServlet</servlet-name>
+    <url-pattern>/ALoginCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CLoginCheckServlet</servlet-name>
+    <url-pattern>/CLoginCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllLineInfoServlet</servlet-name>
+    <url-pattern>/GetAllLineInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllSpotInfoServlet</servlet-name>
+    <url-pattern>/GetAllSpotInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetLineInfoByIdServlet</servlet-name>
+    <url-pattern>/GetLineInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSpotInfoByIdServlet</servlet-name>
+    <url-pattern>/GetSpotInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddLineInfoServlet</servlet-name>
+    <url-pattern>/AddLineInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllDisposedOrderServlet</servlet-name>
+    <url-pattern>/GetAllDisposedOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllUnDisposedOrderServlet</servlet-name>
+    <url-pattern>/GetAllUnDisposedOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisposedOrderServlet</servlet-name>
+    <url-pattern>/DisposedOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnDisposedOrderServlet</servlet-name>
+    <url-pattern>/UnDisposedOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProgressServlet</servlet-name>
+    <url-pattern>/GetProgressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadLineImgServlet</servlet-name>
+    <url-pattern>/UploadLineImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeLineImgServlet</servlet-name>
+    <url-pattern>/ChangeLineImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateLineInfoServlet</servlet-name>
+    <url-pattern>/UpdateLineInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSpotInfoServlet</servlet-name>
+    <url-pattern>/AddSpotInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadSpotImgServlet</servlet-name>
+    <url-pattern>/UploadSpotImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSpotInfoServlet</servlet-name>
+    <url-pattern>/UpdateSpotInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeSpotImgServlet</servlet-name>
+    <url-pattern>/ChangeSpotImgServlet</url-pattern>
+  </servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+	
+</web-app>

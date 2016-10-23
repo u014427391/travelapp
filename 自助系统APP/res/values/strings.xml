@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">TourismClient</string>
+    <string name="version">1.1.0</string>
+    <string name="login_pw">登录密码</string>
+    <string name="autoLogin">自动登录</string>
+    <string name="savedAccount">记住账号</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="number">会员账号</string>
+    
+     <!-- 下拉刷新 -->
+   <string name="pull_to_refresh">下拉可以刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+    
+    <!-- 景点信息 -->
+    <string name="spotDetail">景点详情</string>
+    <!-- 底部菜单文字 -->
+    <string name="fragment_menu_homepage">首页</string>
+    <string name="fragment_menu_order">订单</string>
+    <string name="fragment_menu_found">发现</string>
+    <string name="fragment_menu_my">我的</string>
+    <!-- 编辑个人消息 -->
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <!-- 软件设置 -->
+    <string name="exitLogin">退出登录</string>
+    <!-- 预定旅游服务 -->
+    <string name="reserve">预定旅游服务</string>
+    <!-- 搜索景点信息 -->
+    <string name="searchspot">搜索景点信息</string>
+    <!-- 日历 -->
+    <string name="edit">修改</string>
+    <string name="cancel">取消</string>
+    <string name="addNew">新增</string>
+    <string name="title_activity_calendar_and_time">CalendarAndTimeActivity</string>
+    <string name="title_activity_data_and_time">DataAndTimeActivity</string>
+    <string name="sunday_text">周日</string>
+    <string name="monday_text">周一</string>
+    <string name="tuesday_text">周二</string>
+    <string name="wednesday_text">周三</string>
+    <string name="thursday_text">周四</string>
+    <string name="friday_text">周五</string>
+    <string name="saturday_text">周六</string>
+    <string name="today_text">今天</string>
+    <string name="now_text">现在</string>
+    <string name="line_detail">线路详情</string>
+    <string name="catering">餐饮</string>
+    <string name="accommodation">住宿</string>
+    <string name="traffic">交通</string>
+    <string name="price">价格</string>
+    <string name="contact">联系方式</string>
+    <string name="tourism_time">游览时间</string>
+    <string name="select_line">查询线路</string>
+    
+
+</resources>
