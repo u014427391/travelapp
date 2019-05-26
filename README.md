@@ -8,6 +8,7 @@
    * 管理员后台拟实现(WEB应用)：
 ## 三、注意事项
     1、开发环境为MyEclipse 10，数据库为MYSQL，使用java语言开发
+    2、启动时候需要先启动app服务端，然后才能调到数据，App可以用Eclipse或者AS运行
 ## 四、相关博客
 * [Android订票系统订票功能实现](https://smilenicky.blog.csdn.net/article/details/52252232)
 * [JavaWeb后台管理系统设计](https://smilenicky.blog.csdn.net/article/details/51113378)
