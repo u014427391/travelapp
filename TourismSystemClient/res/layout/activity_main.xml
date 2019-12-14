@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/fg_content"/>
+    
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="0.2dp"
+         android:background="@color/bg_Gray" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_homePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/guide_homepage"
+            android:gravity="center_horizontal"
+            android:onClick="onHomePageClicked"
+            android:text="@string/fragment_menu_homepage"
+            android:textColor="@color/tab_text_bg" />
+        
+        <RadioButton
+            android:id="@+id/rb_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/guide_order"
+            android:gravity="center_horizontal"
+            android:onClick="onOrderClicked"
+            android:text="@string/fragment_menu_order"
+            android:textColor="@color/tab_text_bg" />
+
+        <RadioButton
+            android:id="@+id/rb_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/guide_found"
+            android:gravity="center_horizontal"
+            android:onClick="onFoundClicked"
+            android:text="@string/fragment_menu_found"
+            android:textColor="@color/tab_text_bg" />
+
+        
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/guide_my"
+            android:gravity="center_horizontal"
+            android:onClick="onMyClicked"
+            android:text="@string/fragment_menu_my"
+            android:textColor="@color/tab_text_bg" />
+    </RadioGroup>
+    
+
+</LinearLayout>
+

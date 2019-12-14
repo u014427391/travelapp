@@ -1,0 +1,252 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/top_bar_normal_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/fragment_menu_my"
+            android:textColor="@color/bottom_text_color_normal"
+            android:textSize="18sp" />
+    </RelativeLayout> 
+   
+   <RelativeLayout
+        android:id="@+id/mime_layout_05"
+        android:layout_width="fill_parent"
+        android:layout_height="110dip"      
+        android:clickable="true"
+        android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center">
+        
+          <ImageView
+            android:id="@+id/mime_img_05"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/ic_normal_avatar"
+            android:scaleType="fitXY" />
+          
+          <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/mime_img_05"  
+	        android:layout_toLeftOf="@+id/row_img_05" >
+          
+	           	<TextView
+			        android:id="@+id/text_01"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="10dip"      
+			        android:text="请先登录!"
+			        android:textSize="16sp"
+			        android:textColor="#202020"/>
+	           	
+	           <LinearLayout 
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"   
+		         	android:layout_below="@id/text_01" 
+		            android:layout_marginTop="10dip" 
+		        	android:orientation="horizontal">
+	           
+        
+          		<TextView
+			        android:id="@+id/text_02"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="5dip"     
+			        android:textSize="16sp"
+			        android:textColor="#808080" />
+          		
+          		 </LinearLayout>
+           
+           </RelativeLayout>
+           
+          
+          <ImageView
+                android:id="@+id/row_img_05"
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+       
+
+     </RelativeLayout>
+   
+   
+   
+    <LinearLayout 
+         android:layout_width="fill_parent"
+       	 android:layout_height="wrap_content" 
+         android:layout_marginTop="15dip"      
+       	 android:background="@drawable/usermainpage_bg_center" 
+         android:orientation="vertical">
+    
+          <RelativeLayout
+	        android:id="@+id/mime_layout_01"
+	        android:layout_width="fill_parent"
+	        android:layout_height="42dip"      
+	        android:clickable="true">
+	           
+          <ImageView
+	            android:id="@+id/mime_img_01"
+	            android:layout_width="36.0dip"
+	            android:layout_height="36.0dip"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/ic_mine_gallery"
+	            android:scaleType="fitXY" />
+          
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dip"
+		        android:layout_centerVertical="true"  
+		        android:layout_toRightOf="@id/mime_img_01" 
+		        android:text="我的收藏"
+		        android:textSize="16sp"
+		        android:textColor="#202020"/>
+           <ImageView
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+
+          </RelativeLayout>
+          
+          <ImageView 
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+             android:layout_marginLeft="60dip" />
+          
+          <RelativeLayout
+	        android:id="@+id/mime_layout_02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="42dip"      
+	        android:clickable="true">
+           
+          <ImageView
+	            android:id="@+id/mime_img_02"
+	            android:layout_width="36.0dip"
+	            android:layout_height="36.0dip"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/ic_mine_feed"
+	            android:scaleType="fitXY" />
+          
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dip"
+		        android:layout_centerVertical="true"  
+		        android:layout_toRightOf="@id/mime_img_02" 
+		        android:text="编辑资料"
+		        android:textSize="16sp"
+		        android:textColor="#202020" />
+           
+          	<ImageView
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+          </RelativeLayout>
+   
+ </LinearLayout>
+   
+      <RelativeLayout
+        android:id="@+id/mime_layout_06"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"      
+        android:clickable="true"
+        android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" >
+          
+          <ImageView
+	            android:id="@+id/mime_img_06"
+	            android:layout_width="36.0dip"
+	            android:layout_height="36.0dip"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/chat_addition_activity_nor"
+	            android:scaleType="fitXY" />
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dip"
+		        android:layout_centerVertical="true"  
+		        android:layout_toRightOf="@id/mime_img_06" 
+		        android:text="消息提醒"
+		        android:textSize="16sp"
+		        android:textColor="#202020"/>
+          <ImageView
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+          </RelativeLayout>
+    
+     <RelativeLayout
+	        android:id="@+id/mime_layout_07"
+	        android:layout_width="fill_parent"
+	        android:layout_height="42dip"      
+	        android:clickable="true"
+            android:layout_marginTop="15dip"      
+            android:background="@drawable/usermainpage_bg_center" >
+          
+          <ImageView
+	            android:id="@+id/mime_img_07"
+	            android:layout_width="36.0dip"
+	            android:layout_height="36.0dip"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/ic_mine_setting"
+	            android:scaleType="fitXY" />
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dip"
+		        android:layout_centerVertical="true"  
+		        android:layout_toRightOf="@id/mime_img_07" 
+		        android:text="软件设置"
+		        android:textSize="16sp"
+		        android:textColor="#202020"/>
+          <ImageView
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+          </RelativeLayout>
+    
+   
+</LinearLayout>
