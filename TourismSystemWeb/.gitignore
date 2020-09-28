@@ -10,7 +10,7 @@ target/
 mvnw.*
 
 # eclipse ignore
-.settings/
+#.settings/
 .project
 .classpath
 
